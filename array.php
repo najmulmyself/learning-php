@@ -46,4 +46,11 @@
         $key = $keys[$i];
         echo $Age[$key]. "\n";
     }
+
+
+    // there are many built in function to sort array
+
+    // asort - sort associative arrays in descending order, according to the value
+    //ksort - sort associative arrays in descending order, according to the value
+    // sort is the default sorting function
 ?>
