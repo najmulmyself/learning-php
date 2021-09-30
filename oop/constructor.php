@@ -18,6 +18,6 @@
 
     $apple = new Fruit('Apple' , 'red' , 15);
 
-    echo $apple->get_name();
+    echo $apple;
 
 ?>
