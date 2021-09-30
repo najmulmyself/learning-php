@@ -14,5 +14,6 @@ echo date("\nl ");
 // i - Minutes with leading zeros (00 to 59)
 // s - Seconds with leading zeros (00 to 59)
 // a - Lowercase Ante meridiem and Post meridiem (am or pm)
+date_default_timezone_set("Asia/Dhaka");
 
-echo "\nThe time is " . date("h:i:sa");
+echo "\nThe time is " . date("h:i:s a");
