@@ -25,3 +25,9 @@ try{
 catch(Exception $e) {
     echo "Unable to divide";
 }
+
+//we can add finally statement to execute the final statement of our code . it will always be executed
+
+finally {
+    echo "\nProcess complete.";
+  }
